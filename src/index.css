@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply  text-gray-900 font-bold ;
+}
+.bg-main{
+    background-color: rgb(15, 175, 15);
+}
+.bg-hover{
+    background-color: #0fc80f;
+
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 2px !important;
+    height: 4px !important;
+    margin: 0 ;
+}
