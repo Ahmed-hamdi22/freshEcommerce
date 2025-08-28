@@ -10,7 +10,6 @@ export default function CartProduct({
   return (
     <div className="mt-5 bg-white shadow-sm p-4 rounded">
       <div className="grid grid-cols-12 items-center border-b pb-3">
-        {/* صورة المنتج */}
         <div className="col-span-12 md:col-span-2 text-center">
           <img
             src={product.product.imageCover}
@@ -19,7 +18,6 @@ export default function CartProduct({
           />
         </div>
 
-        {/* تفاصيل المنتج */}
         <div className="col-span-8 md:col-span-7 ps-4">
           <p className="font-semibold">{product.product.category.name}</p>
           <p className="font-semibold">Unit Price: {product.price} EGP</p>
@@ -34,7 +32,6 @@ export default function CartProduct({
           </button>
         </div>
 
-        {/* التحكم في الكمية */}
         <div className="col-span-4 md:col-span-3 flex justify-end items-center gap-3">
           <button
             onClick={() => {
