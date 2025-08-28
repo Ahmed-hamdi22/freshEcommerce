@@ -15,7 +15,7 @@ export default function WishList() {
   }
 
   useEffect(() => {
-    const delay = 4000; // 2 seconds
+    const delay = 4000;
     setIsLoading(true);
     const timeoutId = setTimeout(() => {
       setIsLoading(false);
